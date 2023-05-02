@@ -1,0 +1,52 @@
+{
+    "name": "inputActions",
+    "maps": [
+        {
+            "name": "player",
+            "id": "5a671255-a1a9-46af-83a1-7a27eacecaf3",
+            "actions": [
+                {
+                    "name": "move",
+                    "type": "Value",
+                    "id": "6f4f2510-7c60-4070-b2b1-12b70a945638",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "aim",
+                    "type": "PassThrough",
+                    "id": "4972346c-eaf1-4366-832d-75c4f88707de",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4d121c78-b3ee-4d5c-8001-3e09fab7dba7",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c7f01acc-29d8-4ece-8c55-fa6d419574ae",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
